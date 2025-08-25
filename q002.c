@@ -23,7 +23,7 @@ int main(void)
     int y;
     
     printf("Input: ");
-    scanf("%i %i", x, y);
+    scanf("%i %i", &x, &y);
     {
         printf("Sum=%i, Diff=%i. Product=%i, Quotient=%i\n", x + y, x - y, x * y, x / y);
     }
