@@ -13,7 +13,6 @@ Output 2:
 Area=28.27, Circumference=18.85
 
 */
-#include <cs50.h>
 #include <math.h>
 #include <stdio.h>
 
@@ -28,7 +27,8 @@ int main(void)
 
     do
     {
-        r = get_float("Radius: ");
+        printf("Radius: ");
+        scanf("%f", &r)
     }
     while (r < 0);
 
