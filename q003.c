@@ -24,13 +24,15 @@ int main(void)
 
     do
     {
-        l = get_int("Length: ");
+        printf("Length: ");
+        scanf("%i", l);
     }
     while (l < 0);
 
     do
     {
-        b = get_int("Breadth: ");
+        printf("Breadth: ");
+        scanf("%i", b);
     }
     while (b < 0);
 
