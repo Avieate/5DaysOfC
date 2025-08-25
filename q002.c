@@ -14,14 +14,13 @@ Output 2:
 Sum=10, Diff=4, Product=21, Quotient=2
 
 */
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 
 {
-    int x = get_int("First Number: ");
-    int y = get_int("Second Number: ");
+    printf("Input: ");
+    scanf("%i %i", x, y);
     {
         printf("Sum=%i, Diff=%i. Product=%i, Quotient=%i\n", x + y, x - y, x * y, x / y);
     }
