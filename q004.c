@@ -28,7 +28,7 @@ int main(void)
     do
     {
         printf("Radius: ");
-        scanf("%f", &r)
+        scanf("%f", &r);
     }
     while (r < 0);
 
