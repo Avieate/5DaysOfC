@@ -18,6 +18,8 @@ Sum=10, Diff=4, Product=21, Quotient=2
 
 int main(void)
 
+int x;
+int y;
 {
     printf("Input: ");
     scanf("%i %i", x, y);
