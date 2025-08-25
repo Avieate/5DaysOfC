@@ -24,14 +24,14 @@ int main(void)
     do
     {
         printf("Length: ");
-        scanf("%i", l);
+        scanf("%i", &l);
     }
     while (l < 0);
 
     do
     {
         printf("Breadth: ");
-        scanf("%i", b);
+        scanf("%i", &b);
     }
     while (b < 0);
 
