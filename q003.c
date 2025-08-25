@@ -14,7 +14,6 @@ Output 2:
 Area=21, Perimeter=20
 
 */
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
