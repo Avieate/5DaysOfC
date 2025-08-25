@@ -14,14 +14,15 @@ Sum = 19
 
 */
 
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 
 {
-    float x = get_int("First Number: ");
-    float y = get_int("Second Number: ");
+    float x, y;
+
+    printf("Input: ");
+    scanf("%f %f", &x, &y);
     {
         printf("Sum = %g\n", x + y);
     }
