@@ -13,13 +13,15 @@ Output 2:
 Fahrenheit=212
 
 */
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 
 {
-    float c = get_float("Celcius: ");
+    float c;
+
+    printf("Celcius: ");
+    scanf("%f", &c);
     int f = (c * 9 / 5) + 32;
     {
         printf("Fahrenhieit=%i\n", f);
