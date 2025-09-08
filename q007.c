@@ -20,8 +20,8 @@ int main(void)
 {
     float x, y;
     
-printf("Input: ");
-scanf ("%f %f", &x, &y);
+    printf("Input: ");
+    scanf ("%f %f", &x, &y);
     {
         printf("After swap: %g %g\n", y, x);
     }
