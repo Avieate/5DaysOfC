@@ -19,12 +19,9 @@ int main(void)
 
 {
     float x, y;
-    do
-    {
-        printf("Input: ");
-        scanf ("%f %f", &x, &y);
-    }
-    while 
+    
+printf("Input: ");
+scanf ("%f %f", &x, &y);
     {
         printf("After swap: %g %g\n", y, x);
     }
